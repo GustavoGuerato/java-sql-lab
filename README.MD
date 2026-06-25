@@ -55,7 +55,7 @@ Este repositório reúne exercícios práticos de Java e SQL realizados diariame
 java-sql-lab/
 ├── README.md
 ├── daily-log.md
-├── Day1.java
+├── src/Day1.java
 └── sql/
     └── day1-basics.sql
 ```
@@ -65,18 +65,18 @@ java-sql-lab/
 ### Pré-requisitos
 
 - JDK 21 instalado
-- Terminal ou IDE Java (IntelliJ IDEA, VS Code ou Eclipse)
+- Terminal ou IDE Java, como IntelliJ IDEA
 
 ### Compilar
 
 ```bash
-javac Day1.java
+javac -d out src/Day1.java
 ```
 
 ### Executar
 
 ```bash
-java Day1
+java -cp out Day1
 ```
 
 ## Arquivos
